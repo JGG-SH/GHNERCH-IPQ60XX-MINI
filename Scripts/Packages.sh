@@ -62,17 +62,15 @@ UPDATE_PACKAGE() {
 # UPDATE_PACKAGE "partexp" "sirpdboy/luci-app-partexp" "main"
 # UPDATE_PACKAGE "qbittorrent" "sbwml/luci-app-qbittorrent" "master" "" "qt6base qt6tools rblibtorrent"
 # UPDATE_PACKAGE "qmodem" "FUjr/QModem" "main"
-UPDATE_PACKAGE "aurora" "eamonxg/luci-theme-aurora" "master"
-UPDATE_PACKAGE "aurora-config" "eamonxg/luci-app-aurora-config" "master"
-UPDATE_PACKAGE "viking" "VIKINGYFY/packages" "main" "" "luci-app-timewol luci-app-wolplus"
 # UPDATE_PACKAGE "vnt" "lmq8267/luci-app-vnt" "main"
-UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
-UPDATE_PACKAGE "luci-app-daed" "QiuSimons/luci-app-daed" "kix"
 UPDATE_PACKAGE "luci-app-dae" "QiuSimons/luci-app-dae" "kix"
-UPDATE_PACKAGE "luci-app-pushbot" "zzsj0928/luci-app-pushbot" "master"
+UPDATE_PACKAGE "argon" "sbwml/luci-theme-argon" "openwrt-25.12"
+UPDATE_PACKAGE "luci-app-tailscale" "asvow/luci-app-tailscale" "main"
 UPDATE_PACKAGE "luci-app-easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "easytier" "EasyTier/luci-app-easytier" "main"
 UPDATE_PACKAGE "openlist2" "sbwml/luci-app-openlist2" "main"
+UPDATE_PACKAGE "luci-app-homer" "JGG-SH/LuCI-APP-Homer" "main"
+
 #UPDATE_PACKAGE "quickfile" "sbwml/luci-app-quickfile" "main"
 
 #更新软件包版本
